@@ -1,0 +1,9 @@
+<p>post works!</p>
+@for(post of posts();track post){
+
+    <p>{{post.userId}}</p>
+   <h1> {{post.title}}</h1>
+}
+@empty{
+    <h2>NO rECORDS</h2>
+}

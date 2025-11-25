@@ -1,0 +1,32 @@
+[data-type='primary' s]{
+
+    font-size: 200px;
+}
+li::marker{
+    color: red;
+}
+
+::selection{
+    color: pink;
+    background: red;
+
+    font-size: 200px;
+}
+ul{
+    /* list-style-image: url("https://i.imgur.com/jMyOape.gif"); */
+    list-style-type: square;
+    display: inline;
+    
+}
+h1,span {
+    display: list-item;
+    margin-left: 3rem;
+  }
+  
+ span::marker, h1::marker {
+    content: "paad";
+  }
+
+  li::marker{
+    color: green!important;
+  }
